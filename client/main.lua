@@ -13,7 +13,7 @@ Citizen.CreateThread(function()
 end)
 
 function loadTxd()
-    local txd = CreateRuntimeTxd('interactions_txd_pa_textui')
+    local txd = CreateRuntimeTxd('interactions_txd_qb_textui')
     for _, v in pairs(Textures) do
         CreateRuntimeTextureFromImage(txd, tostring(v), "assets/" .. v .. ".png")
     end
@@ -306,7 +306,7 @@ Citizen.CreateThread(function()
                                     EndTextCommandDisplayText(0.0, -0.0115)
                                     ResetScriptGfxAlign()
                                     SetScriptGfxAlignParams(0.0, 0.0, 0.0, 0.0)
-                                    DrawSprite('interactions_txd_pa_textui', interact, 0.0, 0.0, width2, 0.03133333333333333, 0.0, 255, 255, 255, 255)
+                                    DrawSprite('interactions_txd_qb_textui', interact, 0.0, 0.0, width2, 0.03133333333333333, 0.0, 255, 255, 255, 255)
                                     ResetScriptGfxAlign()
                                     ClearDrawOrigin()
                                     -- Bg
@@ -322,7 +322,7 @@ Citizen.CreateThread(function()
                                     EndTextCommandDisplayText(-0.01, 0.001)
                                     ResetScriptGfxAlign()
                                     SetScriptGfxAlignParams(0.018 + (width / 2), 0 * 0.03 - 0.015, 0.0, 0.0)
-                                    DrawSprite('interactions_txd_pa_textui', bg, 0.0, 0.015, width, 0.025, 0.0, 255, 255, 255, 255)
+                                    DrawSprite('interactions_txd_qb_textui', bg, 0.0, 0.015, width, 0.025, 0.0, 255, 255, 255, 255)
                                     ResetScriptGfxAlign()
                                     ClearDrawOrigin()
                                     if v.data.enableKeyClick then
@@ -336,7 +336,7 @@ Citizen.CreateThread(function()
                             else
                                 SetScriptGfxAlignParams(0.0, 0.0, 0.0, 0.0)
                                 SetDrawOrigin(v.data.coords.x, v.data.coords.y, v.data.coords.z)
-                                DrawSprite('interactions_txd_pa_textui', 'pin', 0, 0, 0.0125, 0.02333333333333333, 0, 255, 255, 255, 255)
+                                DrawSprite('interactions_txd_qb_textui', 'pin', 0, 0, 0.0125, 0.02333333333333333, 0, 255, 255, 255, 255)
                                 ResetScriptGfxAlign()
                             end
                         end
@@ -383,7 +383,7 @@ Citizen.CreateThread(function()
                                         EndTextCommandDisplayText(0.0, -0.0115)
                                         ResetScriptGfxAlign()
                                         SetScriptGfxAlignParams(0.0, 0.0, 0.0, 0.0)
-                                        DrawSprite('interactions_txd_pa_textui', interact, 0.0, 0.0, width2, 0.03133333333333333, 0.0, 255, 255, 255, 255)
+                                        DrawSprite('interactions_txd_qb_textui', interact, 0.0, 0.0, width2, 0.03133333333333333, 0.0, 255, 255, 255, 255)
                                         ResetScriptGfxAlign()
                                         ClearDrawOrigin()
                                         -- Bg
@@ -399,7 +399,7 @@ Citizen.CreateThread(function()
                                         EndTextCommandDisplayText(-0.01, 0.001)
                                         ResetScriptGfxAlign()
                                         SetScriptGfxAlignParams(0.018 + (width / 2), 0 * 0.03 - 0.015, 0.0, 0.0)
-                                        DrawSprite('interactions_txd_pa_textui', bg, 0.0, 0.015, width, 0.025, 0.0, 255, 255, 255, 255)
+                                        DrawSprite('interactions_txd_qb_textui', bg, 0.0, 0.015, width, 0.025, 0.0, 255, 255, 255, 255)
                                         ResetScriptGfxAlign()
                                         ClearDrawOrigin()
                                         if v.data.enableKeyClick then
@@ -413,7 +413,7 @@ Citizen.CreateThread(function()
                                 else
                                     SetScriptGfxAlignParams(0.0, 0.0, 0.0, 0.0)
                                     SetDrawOrigin(v.data.coords.x, v.data.coords.y, v.data.coords.z)
-                                    DrawSprite('interactions_txd_pa_textui', 'pin', 0, 0, 0.0125, 0.02333333333333333, 0, 255, 255, 255, 255)
+                                    DrawSprite('interactions_txd_qb_textui', 'pin', 0, 0, 0.0125, 0.02333333333333333, 0, 255, 255, 255, 255)
                                     ResetScriptGfxAlign()
                                 end
                             end
@@ -462,7 +462,7 @@ Citizen.CreateThread(function()
                                         EndTextCommandDisplayText(0.0, -0.0115)
                                         ResetScriptGfxAlign()
                                         SetScriptGfxAlignParams(0.0, 0.0, 0.0, 0.0)
-                                        DrawSprite('interactions_txd_pa_textui', interact, 0.0, 0.0, width2, 0.03133333333333333, 0.0, 255, 255, 255, 255)
+                                        DrawSprite('interactions_txd_qb_textui', interact, 0.0, 0.0, width2, 0.03133333333333333, 0.0, 255, 255, 255, 255)
                                         ResetScriptGfxAlign()
                                         ClearDrawOrigin()
                                         -- Bg
@@ -478,7 +478,7 @@ Citizen.CreateThread(function()
                                         EndTextCommandDisplayText(-0.01, 0.001)
                                         ResetScriptGfxAlign()
                                         SetScriptGfxAlignParams(0.018 + (width / 2), 0 * 0.03 - 0.015, 0.0, 0.0)
-                                        DrawSprite('interactions_txd_pa_textui', bg, 0.0, 0.015, width, 0.025, 0.0, 255, 255, 255, 255)
+                                        DrawSprite('interactions_txd_qb_textui', bg, 0.0, 0.015, width, 0.025, 0.0, 255, 255, 255, 255)
                                         ResetScriptGfxAlign()
                                         ClearDrawOrigin()
                                         if v.data.enableKeyClick then
@@ -492,7 +492,7 @@ Citizen.CreateThread(function()
                                 else
                                     SetScriptGfxAlignParams(0.0, 0.0, 0.0, 0.0)
                                     SetDrawOrigin(v.data.coords.x, v.data.coords.y, v.data.coords.z + 1.0)
-                                    DrawSprite('interactions_txd_pa_textui', 'pin', 0, 0, 0.0125, 0.02333333333333333, 0, 255, 255, 255, 255)
+                                    DrawSprite('interactions_txd_qb_textui', 'pin', 0, 0, 0.0125, 0.02333333333333333, 0, 255, 255, 255, 255)
                                     ResetScriptGfxAlign()
                                 end
                             end
@@ -542,7 +542,7 @@ Citizen.CreateThread(function()
                         EndTextCommandDisplayText(0.0, -0.0115)
                         ResetScriptGfxAlign()
                         SetScriptGfxAlignParams(0.0, 0.0, 0.0, 0.0)
-                        DrawSprite('interactions_txd_pa_textui', interact, 0.0, 0.0, width2, 0.03133333333333333, 0.0, 255, 255, 255, 255)
+                        DrawSprite('interactions_txd_qb_textui', interact, 0.0, 0.0, width2, 0.03133333333333333, 0.0, 255, 255, 255, 255)
                         ResetScriptGfxAlign()
                         ClearDrawOrigin()
                         -- Bg
@@ -558,7 +558,7 @@ Citizen.CreateThread(function()
                         EndTextCommandDisplayText(-0.01, 0.001)
                         ResetScriptGfxAlign()
                         SetScriptGfxAlignParams(0.018 + (width / 2), 0 * 0.03 - 0.015, 0.0, 0.0)
-                        DrawSprite('interactions_txd_pa_textui', bg, 0.0, 0.015, width, 0.025, 0.0, 255, 255, 255, 255)
+                        DrawSprite('interactions_txd_qb_textui', bg, 0.0, 0.015, width, 0.025, 0.0, 255, 255, 255, 255)
                         ResetScriptGfxAlign()
                         ClearDrawOrigin()
                         if v.data.enableKeyClick then
@@ -577,7 +577,7 @@ Citizen.CreateThread(function()
                 else
                     SetScriptGfxAlignParams(0.0, 0.0, 0.0, 0.0)
                     SetDrawOrigin(v.data.coords.x, v.data.coords.y, v.data.coords.z)
-                    DrawSprite('interactions_txd_pa_textui', 'pin', 0, 0, 0.0125, 0.02333333333333333, 0, 255, 255, 255, 255)
+                    DrawSprite('interactions_txd_qb_textui', 'pin', 0, 0, 0.0125, 0.02333333333333333, 0, 255, 255, 255, 255)
                     ResetScriptGfxAlign()
                 end
             end
